@@ -41,8 +41,8 @@ contract banking{
         
 
     }
-    function depositeMoney(uint money) public{
-
+    function depositeMoney() public view returns(string memory){
+        return "Puneet";
     }
     function withdrwalMoney(uint money) public{
 
